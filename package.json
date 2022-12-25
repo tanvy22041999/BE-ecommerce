@@ -1,0 +1,42 @@
+{
+    "name": "BE_Ecommerce",
+    "version": "1.0.0",
+    "main": "app.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.0",
+        "cloudinary": "^1.27.0",
+        "consolidate": "^0.16.0",
+        "cors": "^2.8.5",
+        "cron": "^1.8.2",
+        "dotenv": "^8.6.0",
+        "ejs": "^3.1.6",
+        "express": "^4.17.1",
+        "express-fileupload": "^1.2.0",
+        "express-promise-router": "^4.0.1",
+        "google-auth-library": "^7.0.4",
+        "googleapis": "^73.0.0",
+        "http": "0.0.1-security",
+        "http-errors": "^1.8.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.12.8",
+        "nodemailer": "^6.4.16",
+        "nodemon": "^2.0.6",
+        "os": "^0.1.1",
+        "passport": "^0.4.1",
+        "passport-facebook-token": "^4.0.0",
+        "passport-google-token": "^0.1.2",
+        "passport-jwt": "^4.0.0",
+        "passport-local": "^1.0.0",
+        "paypal-rest-sdk": "^1.8.1",
+        "socket.io": "^4.1.1"
+    },
+    "devDependencies": {
+        "morgan": "^1.10.0"
+    }
+}
