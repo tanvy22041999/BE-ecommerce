@@ -1,5 +1,5 @@
 const router = require("express-promise-router")()
-const orderController = require('../controllers/order')
+const orderController = require('../controllers/Order')
 const passport = require('passport')
 
 router.route('/')

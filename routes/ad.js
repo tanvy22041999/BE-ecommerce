@@ -1,6 +1,6 @@
 const router = require("express-promise-router")()
 
-const adController = require('../controllers/advertise')
+const adController = require('../controllers/Advertise')
 
 const passport = require('passport');
 require('../middlewares/passport');

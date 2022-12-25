@@ -1,5 +1,5 @@
 const router = require("express-promise-router")()
-const installmentController = require('../controllers/installment')
+const installmentController = require('../controllers/Installment')
 const passport = require('passport')
 
 router.route('/')

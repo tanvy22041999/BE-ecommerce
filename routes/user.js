@@ -1,7 +1,7 @@
 
 const router = require("express-promise-router")()
-const userController = require('../controllers/user')
-const notificationController = require('../controllers/notification')
+const userController = require('../controllers/User')
+const notificationController = require('../controllers/Notification')
 
 const passport = require('passport')
 require('../middlewares/passport')

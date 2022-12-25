@@ -1,6 +1,6 @@
 const router = require("express-promise-router")()
 
-const payPalController = require('../controllers/payPal')
+const payPalController = require('../controllers/PayPal')
 
 router.route('/').get(payPalController.getPayPal)
 router.route('/success').get(payPalController.successPayPal)

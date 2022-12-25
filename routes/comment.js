@@ -1,6 +1,6 @@
 const router = require("express-promise-router")()
 
-const commentController = require('../controllers/comment')
+const commentController = require('../controllers/Comment')
 
 const passport = require('passport')
 require('../middlewares/passport')

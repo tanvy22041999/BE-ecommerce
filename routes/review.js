@@ -1,6 +1,6 @@
 const router = require("express-promise-router")()
 
-const reviewController = require('../controllers/review')
+const reviewController = require('../controllers/Review')
 
 router.route('/').post(reviewController.addReview)
 

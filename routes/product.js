@@ -1,13 +1,13 @@
 const router = require('express-promise-router')();
 
-const brandController = require('../controllers/brand');
-const categoryController = require('../controllers/category');
-const commentController = require('../controllers/comment');
-const colorController = require('../controllers/color');
-const groupController = require('../controllers/group')
-const productController = require('../controllers/product');
-const selectorController = require('../controllers/selector')
-const specificationController = require('../controllers/specification');
+const brandController = require('../controllers/Brand');
+const categoryController = require('../controllers/Category');
+const commentController = require('../controllers/Comment');
+const colorController = require('../controllers/Color');
+const groupController = require('../controllers/Group')
+const productController = require('../controllers/Product');
+const selectorController = require('../controllers/Selector')
+const specificationController = require('../controllers/Specification');
 
 const passport = require('passport');
 require('../middlewares/passport');
