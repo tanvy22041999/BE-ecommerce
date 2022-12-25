@@ -49,9 +49,8 @@ app.use(
 );
 
 // 4. Define Database
-
-// @For tester
-mongoose.connect('mongodb+srv://mongodb:mongodb@cluster0.5yggc.mongodb.net/mongodb?retryWrites=true&w=majority', {
+const { DATABASE_URL } = require('./configs/config');
+mongoose.connect(DATABASE_URL, {
 	useCreateIndex: true,
 	useNewUrlParser: true,
 	useUnifiedTopology: true,

@@ -10,5 +10,6 @@ module.exports = {
     GOOGLE_SECRET: process.env.GOOGLE_SECRET,
     FACEBOOK_ID: process.env.FACEBOOK_ID,
     FACEBOOK_SECRET: process.env.FACEBOOK_SECRET,
-    URL: process.env.URL
+    URL: process.env.URL,
+    DATABASE_URL: process.env.DATABASE_URL
 }
