@@ -149,7 +149,7 @@ const addOrder = async (req, res, next) => {
 		var job = new CronJob(' * * * * *', async() => {
 			// Kiểm tra đã hết hạn thì dừng Job
 			var expire = new Date();
-			if(expire - thisTime >= 20*1000){
+			if(expire - thisTime >= 60*60*1000){
 				await job.stop();
 			}
 			},async () => {
