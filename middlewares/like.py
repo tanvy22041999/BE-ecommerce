@@ -7,7 +7,7 @@ import numpy as np
 import sklearn
 from sklearn.decomposition import TruncatedSVD
 
-url = 'http://be-phonestore.herokuapp.com/reviews/list?limit=200'
+url = 'https://be-ecommerce-production.up.railway.app/reviews/list?limit=200'
 r = requests.get(url)
 data = r.json()
 
