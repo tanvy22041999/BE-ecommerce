@@ -205,7 +205,7 @@ const updateOrder = async (req, res, next) => {
 				}
 				else {
 					// Hủy đơn hàng thì cập nhật lại số lượng
-					if(active == false && order.status == -1){
+					if(active == false && (order.status == -1 || order.status == 2)){
 						for (let item of order.order_list){
 							let productFound = await Product.findById(item.product);
 							if(productFound){
